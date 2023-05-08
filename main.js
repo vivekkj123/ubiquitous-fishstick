@@ -26,7 +26,7 @@ function createMessage() {
   div.append(textEL);
   textEL.textContent = "Save Nature for better Tomorrow #SaveNature #ConserveNature";
   let imageEl = document.createElement("img")
-  imageEl.src = './public/tree.png'
+  imageEl.src = '/tree.png'
   div.append(imageEl)
   return div;
 }
